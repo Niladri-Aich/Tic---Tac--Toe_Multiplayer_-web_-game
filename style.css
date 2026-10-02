@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    max-width: 100vw;
+    overflow:hidden;
+}
+
+
+
+
+.container{
+    margin:20px auto;
+    max-width:90vw;
+    /* min-height:100vh; */
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+
+}
+.container>h1{
+    font-size: 25px;
+    text-align: center;
+}
+.topPanel{
+    width:300px;
+    height:40px;
+    border:2px solid blue;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.active{
+   background-color: red;
+   color:white;
+   
+}
+.xTurn,.oTurn{
+    width:149px;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:20px;
+    text-align: center;
+    font-weight: bolder;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0cap;
+    border-radius: 10px;
+}
+td{
+    width:100px;
+    height:100px;
+    border:2px solid blue;
+    font-size: 75px;
+    text-align: center;
+    /* border-radius: 10px; */
+    /* border-radius: 10px; */
+    padding: 0px;
+    margin: 0;
+}
+
+td:hover{
+    background-color: red;
+    cursor:pointer
+}
