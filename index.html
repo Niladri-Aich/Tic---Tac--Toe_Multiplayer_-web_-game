@@ -8,14 +8,37 @@
 </head>
 <body>
 <script src="script.js" defer></script>
+
+<div class="startScreen">
+    <h1>TIC TAC TOE MULTIPLAYER</h1>
+     <table >
+        <tr>
+            <td>X</td>
+            <td>O</td>
+            <td>X</td>
+        </tr>
+        <tr>
+            <td>O</td>
+            <td>X</td>
+            <td>O</td>
+        </tr>
+        <tr>
+            <td>X</td>
+            <td>O</td>
+            <td>X</td>
+        </tr>
+    </table>
+    <button class="btn" id="startBtn" onclick="startGame()"> Start game</button>
+    <img src="assets/mocha.gif" alt="" id="mocha">
+</div>
 <div class="container">
-    <h1>TIC TAC TOE MULTI PLAYER</h1>
+    <h1>TIC TAC TOE</h1>
     <div class="topPanel">
         <div class="xTurn active"><p>X'S TURN</p></div>
-        <div class="oTurn"><p>Y'S TURN</p></div>
+        <div class="oTurn"><p>O'S TURN</p></div>
     </div>
 
-    <table >
+    <table id="game-board">
         <tr>
             <td id="00"></td>
             <td id="01"></td>
